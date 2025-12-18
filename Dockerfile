@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-ea-17-jdk
 
 # Required for starting application up.
 RUN apk update && apk add /bin/sh
